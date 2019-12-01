@@ -20,7 +20,7 @@ class App extends Component {
     axios
       .get(`https://api.github.com/users/${this.state.username}`)
       .then((response) => {
-        console.log('Axios get for gitUser', response);
+        console.log('Axios get for githubUser', response);
         this.setState({
           githubUser: response.data
         })
@@ -53,10 +53,12 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <div>
+        <h1>React Github User Card</h1>
+        <div>Test {this.props.name}</div>
         <UserCard />
         <FollowersInfo />
-      </>
+      </div>
     )
   }
 }
