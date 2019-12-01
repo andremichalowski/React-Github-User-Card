@@ -1,6 +1,6 @@
 ## Planning your App
 
-[ ] - **App.js**
+[x] - **App.js**
     Class Component (CC)
         Constructor 
             State
@@ -15,26 +15,26 @@
             User Card
             Friends
 
-[ ] - *UserCard*
+[x] - *UserCard*
     CC
         R/R
             cardHeader
             cardBody
 
-[ ] - `cardHeader`
+[x] - `cardHeader`
     CC
         R/R
             props.name
             props.image
             ?props.other?
-[ ] - `cardBody`
+[x] - `cardBody`
     CC
         R/R
             props.github
             *props.email
             **props.followers
             ?props.other?
-[ ] - *Friends*
+[x] - *Friends*
     CC
         R/R
             props.name
@@ -43,15 +43,15 @@
 
 [x] - Structure
 [x] - State and Axios
-[ ] - Rendering 
+[x] - Rendering 
     [x] - Imports
     [x] - Render components
     [x] - Props
-    [ ] - '.map' statements etc.
+    [x] - '.map' statements etc.
 [x] - Styling
 [ ] - Retrospective
-[ ] - MVP Requirements Review
-[ ] - Stretch Problem: Component did Update
+[x] - MVP Requirements Review
+[x] - Stretch Problem: Component did Update
 
 
 
@@ -82,19 +82,21 @@
 ## STEP 5 - Project Retrospective
 
  Is there anything you wish you had planned better? 
+
  Anything you would do differently?
+ 
  How you would accomplish these same objectives with function components and hooks. 
 
 ## Minimum Viable Product
 
-- [ ] Fetch data from the Github API for a Github user
-- [ ] Display the user data on the DOM
-- [ ] Use class components when you need to hold any state or use any lifecycle methods
+- [x] Fetch data from the Github API for a Github user
+- [x] Display the user data on the DOM
+- [x] Use class components when you need to hold any state or use any lifecycle methods
 
 ## Stretch Problems
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-- Build a form that allows you to search for different Github users. When the form is submitted, use `componentDidUpdate` to fetch the data for the user you typed in. Set that new user's data to state to trigger the component to rerender and display your new user. Don't forget to fetch their followers as well.
+[x] - Build a form that allows you to search for different Github users. When the form is submitted, use `componentDidUpdate` to fetch the data for the user you typed in. Set that new user's data to state to trigger the component to rerender and display your new user. Don't forget to fetch their followers as well.
 
-- Look into adding your GitHub contribution graph. There are a number of different ways of doing this, this Stack Overflow discussion will get you started: https://stackoverflow.com/questions/34516592/embed-github-contributions-graph-in-website
+[ ] - Look into adding your GitHub contribution graph. There are a number of different ways of doing this, this Stack Overflow discussion will get you started: https://stackoverflow.com/questions/34516592/embed-github-contributions-graph-in-website

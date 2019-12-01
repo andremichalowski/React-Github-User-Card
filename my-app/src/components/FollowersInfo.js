@@ -9,9 +9,6 @@ const Card = styled.div`
   max-height: 800px;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; */
   background-color: white;
   border: 1px solid #d1d5da;
   border-radius: 3px;
@@ -32,8 +29,6 @@ class FollowersInfo extends Component {
     const { followers, loginChange } = this.props;
     return (
       <Card>
-        {/* <p> Followers Info: Placeholder for props information from followers </p> */}
-        {/* <div>Iteration Statement</div> */}
         {followers.map((follower, index) => {
           const handleMouseOver = () => {
             loginChange(follower.login);
@@ -41,7 +36,6 @@ class FollowersInfo extends Component {
           return (
             <div key={index}>
               <Square>
-                {/* <div>{follower.login}</div> */}
                 <a onMouseOver={handleMouseOver} href={follower.html_url}>
                   <Image src={follower.avatar_url} />
                 </a>

@@ -22,7 +22,6 @@ class CardBody extends Component {
     render () {
         return (
             <Card>
-                {/* <p>Card Body: Placeholder for props information from user and followers array </p> */}
                     <div>Github: 
                             <NoDecoration
                                 href={`${this.props.html_url}`}> (Link)
@@ -31,11 +30,9 @@ class CardBody extends Component {
                 {this.props.email !== null && (
                 <div>Email: {this.props.email}</div>
                 )}
-                {/* //statement for empty */}
                 <div>Followers: {this.props.followers}</div>
                 <div>Following: {this.props.following}</div>
                 <div>Repos: {this.props.public_repos}</div>
-                {/* //statement for empty? */}
             </Card>
         )
     }

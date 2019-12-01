@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-import styled from "styled-components";
-import "./App.css";
-
 import UserCard from "./components/UserCard";
 import FollowersInfo from "./components/FollowersInfo";
+
+import "./App.css";
+import styled from "styled-components";
 
 const AppContainer = styled.div`
   font-size: 1rem;
@@ -18,18 +18,17 @@ const AppContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items : center; */
   align-content: stretch;
   background-color: white;
   border: 1px solid #d1d5da;
   border-radius: 3px;
   white-space: nowrap;
 `;
+
 const Title = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* align-items : center; */
   align-content: center;
 `;
 
@@ -80,16 +79,6 @@ class App extends Component {
     }
   }
 
-  // ====== POTENTIAL METHOD/HANDLER???======
-  // clearCompleted = itemId => {
-  //   console.log("clearCompleted");
-  //   this.setState({
-  //     tasks: this.state.tasks.filter(item => {
-  //       return !item.completed;
-  //     })
-  //   })
-  // }
-
   loginChange = username => {
     this.setState({ username });
   };
@@ -98,13 +87,11 @@ class App extends Component {
     return (
       <AppContainer>
         <Title>
-          <h1>REACT GITHUB USER USER CARD </h1>
+          <h1>REACT GITHUB USER CARD </h1>
         </Title>
-        {/* <div>Test {this.props.name}</div> */}
         <UserCard {...this.state.gitUser} />
         <FollowersInfo
           followers={this.state.followers}
-          {...this.state.username}
           loginChange={this.loginChange}
         />
       </AppContainer>

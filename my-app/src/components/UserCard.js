@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import styled from 'styled-components';
-
 import CardHeader from './CardHeader';
 import CardBody from './CardBody';
+
+import styled from 'styled-components';
 
 const Card = styled.div `
     padding: 5%;
@@ -18,7 +18,6 @@ const Card = styled.div `
     border: 1px solid #d1d5da;
     border-radius: 3px;
 `
-
 class UserCard extends Component {
     render () {
         return (
