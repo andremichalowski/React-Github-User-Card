@@ -39,6 +39,18 @@ class App extends Component {
       })
   }
 
+  componentDidMount() {
+    this.getUser();
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if(prevState.username !== this.state.username) {
+      this.getUser();
+    } else {
+      return
+    }
+  }
+
   render() {
     return (
       <>
