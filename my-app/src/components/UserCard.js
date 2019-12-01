@@ -19,20 +19,6 @@ const Card = styled.div `
     border-radius: 3px;
 `
 
-// font-size: 1rem;
-//   max-width: 80%;
-//   padding: 5% 15%;
-//   margin: auto;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   /* align-items : center; */
-//   align-content: stretch;
-
-//   border-radius: 60px;
-//   white-space: nowrap;
-
-
 class UserCard extends Component {
     render () {
         return (
