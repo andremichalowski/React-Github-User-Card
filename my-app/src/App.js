@@ -19,9 +19,9 @@ const AppContainer = styled.div`
   justify-content: center;
   /* align-items : center; */
   align-content: stretch;
-  background-color: #6cc644;
-  border: 30px solid green;
-  border-radius: 60px;
+  background-color: white;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
   white-space: nowrap;
 `
 const Title = styled.div`

@@ -14,8 +14,9 @@ const Card = styled.div `
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: #6cc644;
-    border: 7px solid green;
+    background-color: white;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
 `
 
 // font-size: 1rem;

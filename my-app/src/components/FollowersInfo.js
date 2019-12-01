@@ -11,8 +11,9 @@ const Card = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: #6cc644;
-    border: 7px solid green;
+    background-color: white;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
 `
 class FollowersInfo extends Component {
     render () {
