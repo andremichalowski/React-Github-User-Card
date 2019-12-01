@@ -41,6 +41,13 @@
             props.image
             props.github
 
+[x] - Structure
+[x] - State and Axios
+[ ] - Rendering 
+    [x] - Imports
+    [x] - Render components
+    [ ] - Props
+    [ ] - '.map' statements etc.
 [ ] - Styling
 [ ] - Retrospective
 [ ] - MVP Requirements Review
