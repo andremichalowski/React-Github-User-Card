@@ -46,9 +46,9 @@
 [ ] - Rendering 
     [x] - Imports
     [x] - Render components
-    [ ] - Props
+    [x] - Props
     [ ] - '.map' statements etc.
-[ ] - Styling
+[x] - Styling
 [ ] - Retrospective
 [ ] - MVP Requirements Review
 [ ] - Stretch Problem: Component did Update

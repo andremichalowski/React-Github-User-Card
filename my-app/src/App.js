@@ -1,9 +1,37 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+
+import styled from 'styled-components';
 import './App.css';
 
 import UserCard from './components/UserCard';
 import FollowersInfo from './components/FollowersInfo';
+
+const AppContainer = styled.div`
+  font-size: 1rem;
+  max-width: 80%;
+  max-width: 450px;
+  min-width: 450px;
+  padding: 5% 15%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items : center; */
+  align-content: stretch;
+  background-color: #6cc644;
+  border: 30px solid green;
+  border-radius: 60px;
+  white-space: nowrap;
+`
+const Title = styled.div`
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items : center; */
+  align-content: center;
+`
+
 class App extends Component {
   constructor() {
     super()
@@ -53,12 +81,14 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <h1>React Github User Card</h1>
-        <div>Test {this.props.name}</div>
+      <AppContainer>
+        <Title>
+          <h1>REACT GITHUB USER USER CARD  </h1>
+        </Title>
+        {/* <div>Test {this.props.name}</div> */}
         <UserCard />
         <FollowersInfo />
-      </div>
+      </AppContainer>
     )
   }
 }
