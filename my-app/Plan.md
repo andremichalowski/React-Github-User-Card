@@ -49,7 +49,7 @@
     [x] - Props
     [x] - '.map' statements etc.
 [x] - Styling
-[ ] - Retrospective
+[x] - Retrospective
 [x] - MVP Requirements Review
 [x] - Stretch Problem: Component did Update
 
@@ -82,10 +82,11 @@
 ## STEP 5 - Project Retrospective
 
  Is there anything you wish you had planned better? 
-
+    Styling
  Anything you would do differently?
- 
- How you would accomplish these same objectives with function components and hooks. 
+    Learn more about state, lifecycle, events, and props.
+ How you would accomplish these same objectives with function components and hooks.
+    In a similar way but probably using more hook statements.
 
 ## Minimum Viable Product
 
