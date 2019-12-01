@@ -38,7 +38,7 @@ class App extends Component {
 
     this.state = {
       username: 'andremichalowski',
-      githubUser: {},
+      gitUser: {},
       followers: [],
       inputValue: ''
     }
@@ -48,9 +48,9 @@ class App extends Component {
     axios
       .get(`https://api.github.com/users/${this.state.username}`)
       .then((response) => {
-        console.log('Axios get for githubUser', response);
+        console.log('Axios get for gitUser', response);
         this.setState({
-          githubUser: response.data
+          gitUser: response.data
         })
       })
       .catch((err) => {
@@ -86,8 +86,8 @@ class App extends Component {
           <h1>REACT GITHUB USER USER CARD  </h1>
         </Title>
         {/* <div>Test {this.props.name}</div> */}
-        <UserCard />
-        <FollowersInfo />
+        <UserCard {...this.state.gitUser}/>
+        <FollowersInfo followers={this.state.followers}/>
       </AppContainer>
     )
   }
