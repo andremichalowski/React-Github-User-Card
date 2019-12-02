@@ -84,7 +84,7 @@
  Is there anything you wish you had planned better? 
     Styling
  Anything you would do differently?
-    Learn more about state, lifecycle, events, and props.
+    Learn more about state, life cycle, events, and props.
  How you would accomplish these same objectives with function components and hooks.
     In a similar way but probably using more hook statements.
 
@@ -92,12 +92,12 @@
 
 - [x] Fetch data from the Github API for a Github user
 - [x] Display the user data on the DOM
-- [x] Use class components when you need to hold any state or use any lifecycle methods
+- [x] Use class components when you need to hold any state or use any life cycle methods
 
 ## Stretch Problems
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-[x] - Build a form that allows you to search for different Github users. When the form is submitted, use `componentDidUpdate` to fetch the data for the user you typed in. Set that new user's data to state to trigger the component to rerender and display your new user. Don't forget to fetch their followers as well.
+[x] - Build a form that allows you to search for different Github users. When the form is submitted, use `componentDidUpdate` to fetch the data for the user you typed in. Set that new user's data to state to trigger the component to re-render and display your new user. Don't forget to fetch their followers as well.
 
 [ ] - Look into adding your GitHub contribution graph. There are a number of different ways of doing this, this Stack Overflow discussion will get you started: https://stackoverflow.com/questions/34516592/embed-github-contributions-graph-in-website
